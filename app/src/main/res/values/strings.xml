@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">KodeProjectThree</string>
+    <string name="mainHeader">Choose the figure</string>
+    <string name="buttonCreate">Create</string>
+
+    <string-array name="figures">
+        <item>Circle</item>
+        <item>Rectangle</item>
+        <item>Triangle</item>
+    </string-array>
+</resources>

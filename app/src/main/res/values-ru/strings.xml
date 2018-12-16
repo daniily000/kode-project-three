@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">KodeProjectThree</string>
+
+    <string-array name="figures">
+        <item>Круг</item>
+        <item>Прямоугольник</item>
+        <item>Треугольник</item>
+    </string-array>
+    <string name="mainHeader">Выберите фигуру</string>
+    <string name="buttonCreate">Создать</string>
+</resources>
