@@ -27,4 +27,6 @@
     <string name="side_b_hint">сторона b</string>
     <string name="side_c_hint">сторона c</string>
     <string name="radius_hint">радиус</string>
+    <string name="input_negative">Невозможно создать фигуру с такими данными!</string>
+    <string name="incorrect_input">Невозможно перевести данные формы в число!</string>
 </resources>

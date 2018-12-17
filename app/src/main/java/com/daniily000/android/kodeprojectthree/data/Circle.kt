@@ -13,7 +13,7 @@ class Circle(val radius: Double) : Figure {
         })
 
     init {
-        if (radius < 0) throw IllegalArgumentException("Inappropriate circle radius")
+        if (radius <= 0) throw IllegalArgumentException("Inappropriate circle radius")
     }
 
 }

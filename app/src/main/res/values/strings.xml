@@ -26,4 +26,6 @@
         <item>Triangle</item>
     </string-array>
     <string name="radius_header">Circle radius</string>
+    <string name="incorrect_input">Unable to read double value from input!</string>
+    <string name="input_negative">Unable to create a figure with these values!</string>
 </resources>
