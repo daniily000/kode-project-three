@@ -9,4 +9,9 @@
     </string-array>
     <string name="mainHeader">Выберите фигуру</string>
     <string name="buttonCreate">Создать</string>
+    <string name="buttonCalculate">Вычислить</string>
+    <string name="radius_headline">Радиус</string>
+    <string name="radius_header">"Радиус: "</string>
+    <string name="perimeter_header">"Периметр: "</string>
+    <string name="square_header">"Площадь: "</string>
 </resources>

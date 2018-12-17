@@ -2,6 +2,11 @@
     <string name="app_name">KodeProjectThree</string>
     <string name="mainHeader">Choose the figure</string>
     <string name="buttonCreate">Create</string>
+    <string name="buttonCalculate">Calculate</string>
+    <string name="radius_headline">Radius</string>
+    <string name="radius_header">"Radius: "</string>
+    <string name="perimeter_header">"Perimeter: "</string>
+    <string name="square_header">"Square: "</string>
 
     <string-array name="figures">
         <item>Circle</item>
