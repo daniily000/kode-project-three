@@ -7,19 +7,24 @@
         <item>Прямоугольник</item>
         <item>Треугольник</item>
     </string-array>
-    <string name="mainHeader">Выберите фигуру</string>
-    <string name="buttonCreate">Создать</string>
-    <string name="buttonCalculate">Вычислить</string>
-    <string name="radius_headline">Радиус</string>
-    <string name="radius_header">"Радиус: "</string>
-    <string name="perimeter_header">"Периметр: "</string>
-    <string name="square_header">"Площадь: "</string>
-    <string name="coordinatesHeader">Координаты</string>
-    <string name="measurementsHeader">Измерения</string>
+    <string name="main_header">Выберите фигуру</string>
+    <string name="button_create">Создать</string>
+    <string name="button_calculate">Вычислить</string>
+    <string name="radius_header">Радиус окружности</string>
+    <string name="radius_label">"Радиус: "</string>
+    <string name="perimeter_label">"Периметр: "</string>
+    <string name="square_label">"Площадь: "</string>
+    <string name="coordinates_header">Координаты</string>
+    <string name="measurements_header">Измерения</string>
     <string name="x1_hint">x1</string>
     <string name="y1_hint">y1</string>
     <string name="x2_hint">x2</string>
     <string name="y2_hint">y2</string>
     <string name="height_hint">высота</string>
     <string name="width_hint">ширина</string>
+    <string name="triangle_sides_header">Стороны треугольника</string>
+    <string name="side_a_hint">сторона a</string>
+    <string name="side_b_hint">сторона b</string>
+    <string name="side_c_hint">сторона c</string>
+    <string name="radius_hint">радиус</string>
 </resources>

@@ -11,7 +11,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:text="@string/radius_headline"
+        android:text="@string/radius_header"
 
         app:layout_constraintBottom_toTopOf="@+id/radiusInput" />
 
@@ -27,6 +27,7 @@
         android:gravity="center"
         android:inputType="numberDecimal"
         android:textColor="@color/colorPrimaryDark"
+        android:hint="@string/radius_hint"
 
         app:layout_constraintBottom_toTopOf="@+id/horizontalMiddleLine" />
 
@@ -46,7 +47,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="4dp"
-        android:text="@string/buttonCalculate"
+        android:text="@string/button_calculate"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/horizontalMiddleLine" />
@@ -62,7 +63,7 @@
             android:id="@+id/perimeterHeader"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/perimeter_header"
+            android:text="@string/perimeter_label"
             android:textAppearance="@style/TextAppearance.AppCompat.Large" />
 
         <TextView
@@ -78,7 +79,7 @@
             android:id="@+id/squareHeader"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/square_header"
+            android:text="@string/square_label"
             android:textAppearance="@style/TextAppearance.AppCompat.Large"
             app:layout_constraintTop_toBottomOf="@id/perimeterHeader" />
 

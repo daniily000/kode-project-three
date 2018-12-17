@@ -1,24 +1,29 @@
 <resources>
     <string name="app_name">KodeProjectThree</string>
-    <string name="mainHeader">Choose the figure</string>
-    <string name="buttonCreate">Create</string>
-    <string name="buttonCalculate">Calculate</string>
-    <string name="radius_headline">Radius</string>
-    <string name="radius_header">"Radius: "</string>
-    <string name="perimeter_header">"Perimeter: "</string>
-    <string name="square_header">"Square: "</string>
-    <string name="coordinatesHeader">Coordinates</string>
-    <string name="measurementsHeader">Measurements</string>
+    <string name="main_header">Choose the figure</string>
+    <string name="button_create">Create</string>
+    <string name="button_calculate">Calculate</string>
+    <string name="radius_label">"Radius: "</string>
+    <string name="perimeter_label">"Perimeter: "</string>
+    <string name="square_label">"Square: "</string>
+    <string name="coordinates_header">Coordinates</string>
+    <string name="measurements_header">Measurements</string>
     <string name="x1_hint">x1</string>
     <string name="y1_hint">y1</string>
     <string name="x2_hint">x2</string>
     <string name="y2_hint">y2</string>
     <string name="height_hint">height</string>
     <string name="width_hint">width</string>
+    <string name="triangle_sides_header">Triangle sides</string>
+    <string name="side_a_hint">side a</string>
+    <string name="side_b_hint">side b</string>
+    <string name="side_c_hint">side c</string>
+    <string name="radius_hint">radius</string>
 
     <string-array name="figures">
         <item>Circle</item>
         <item>Rectangle</item>
         <item>Triangle</item>
     </string-array>
+    <string name="radius_header">Circle radius</string>
 </resources>

@@ -53,8 +53,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:text="@string/coordinatesHeader"
-            android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+            android:text="@string/coordinates_header"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
 
         <EditText
             android:id="@+id/coordinateX1"
@@ -128,8 +128,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:text="@string/measurementsHeader"
-            android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+            android:text="@string/measurements_header"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
 
         <EditText
             android:id="@+id/height"
@@ -165,7 +165,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="4dp"
-        android:text="@string/buttonCalculate"
+        android:text="@string/button_calculate"
         app:layout_constraintBottom_toTopOf="@+id/horizontalMiddleLine"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toLeftOf="@id/verticalDivider" />
@@ -176,7 +176,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="4dp"
-        android:text="@string/buttonCalculate"
+        android:text="@string/button_calculate"
         app:layout_constraintBottom_toTopOf="@+id/horizontalMiddleLine"
         app:layout_constraintLeft_toRightOf="@id/verticalDivider"
         app:layout_constraintRight_toRightOf="parent" />
@@ -192,7 +192,7 @@
             android:id="@+id/perimeterHeader"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/perimeter_header"
+            android:text="@string/perimeter_label"
             android:textAppearance="@style/TextAppearance.AppCompat.Large" />
 
         <TextView
@@ -208,7 +208,7 @@
             android:id="@+id/squareHeader"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/square_header"
+            android:text="@string/square_label"
             android:textAppearance="@style/TextAppearance.AppCompat.Large"
             app:layout_constraintTop_toBottomOf="@id/perimeterHeader" />
 
