@@ -1,11 +1,9 @@
 package com.daniily000.android.kodeprojectthree
 
 import android.content.Intent
-import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import android.support.v7.app.AppCompatActivity
 import android.widget.ArrayAdapter
-import android.widget.Spinner
-import com.daniily000.android.kodeprojectthree.data.Figures
 import com.daniily000.android.kodeprojectthree.data.Figures.*
 import kotlinx.android.synthetic.main.activity_main.*
 

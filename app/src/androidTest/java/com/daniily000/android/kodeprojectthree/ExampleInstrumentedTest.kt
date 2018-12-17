@@ -2,13 +2,9 @@ package com.daniily000.android.kodeprojectthree
 
 import android.support.test.InstrumentationRegistry
 import android.support.test.runner.AndroidJUnit4
-import android.util.Log
-import com.daniily000.android.kodeprojectthree.data.Rectangle
-
+import org.junit.Assert.assertEquals
 import org.junit.Test
 import org.junit.runner.RunWith
-
-import org.junit.Assert.*
 
 /**
  * Instrumented test, which will execute on an Android device.

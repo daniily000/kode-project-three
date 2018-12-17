@@ -11,7 +11,6 @@
     <string name="button_create">Создать</string>
     <string name="button_calculate">Вычислить</string>
     <string name="radius_header">Радиус окружности</string>
-    <string name="radius_label">"Радиус: "</string>
     <string name="perimeter_label">"Периметр: "</string>
     <string name="square_label">"Площадь: "</string>
     <string name="coordinates_header">Координаты</string>

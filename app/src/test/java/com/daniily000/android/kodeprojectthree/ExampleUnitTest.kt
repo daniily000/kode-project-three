@@ -4,7 +4,6 @@ import com.daniily000.android.kodeprojectthree.data.Circle
 import com.daniily000.android.kodeprojectthree.data.Figure
 import com.daniily000.android.kodeprojectthree.data.Rectangle
 import com.daniily000.android.kodeprojectthree.data.Triangle
-import org.junit.Assert.assertEquals
 import org.junit.Test
 
 /**

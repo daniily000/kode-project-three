@@ -3,7 +3,6 @@
     <string name="main_header">Choose the figure</string>
     <string name="button_create">Create</string>
     <string name="button_calculate">Calculate</string>
-    <string name="radius_label">"Radius: "</string>
     <string name="perimeter_label">"Perimeter: "</string>
     <string name="square_label">"Square: "</string>
     <string name="coordinates_header">Coordinates</string>
