@@ -41,7 +41,7 @@
 
 
     <Button
-        android:id="@+id/calculateButton"
+        android:id="@+id/calculateCoordinatesButton"
         style="?android:attr/buttonBarButtonStyle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -56,31 +56,14 @@
         android:layout_height="0dp"
         android:layout_margin="36dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/calculateButton">
-
-        <TextView
-            android:id="@+id/radiusHeader"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/radius_header"
-            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
-
-        <TextView
-            android:id="@+id/radiusText"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textAppearance="@style/TextAppearance.AppCompat.Large"
-            android:textColor="@color/colorPrimaryDark"
-            app:layout_constraintLeft_toRightOf="@id/radiusHeader"
-            tools:text="30" />
+        app:layout_constraintTop_toBottomOf="@+id/calculateCoordinatesButton">
 
         <TextView
             android:id="@+id/perimeterHeader"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/perimeter_header"
-            android:textAppearance="@style/TextAppearance.AppCompat.Large"
-            app:layout_constraintTop_toBottomOf="@id/radiusHeader" />
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
 
         <TextView
             android:id="@+id/perimeterText"
@@ -89,7 +72,6 @@
             android:textAppearance="@style/TextAppearance.AppCompat.Large"
             android:textColor="@color/colorPrimaryDark"
             app:layout_constraintLeft_toRightOf="@id/perimeterHeader"
-            app:layout_constraintTop_toBottomOf="@id/radiusHeader"
             tools:text="124" />
 
         <TextView

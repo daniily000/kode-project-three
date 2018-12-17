@@ -7,6 +7,14 @@
     <string name="radius_header">"Radius: "</string>
     <string name="perimeter_header">"Perimeter: "</string>
     <string name="square_header">"Square: "</string>
+    <string name="coordinatesHeader">Coordinates</string>
+    <string name="measurementsHeader">Measurements</string>
+    <string name="x1_hint">x1</string>
+    <string name="y1_hint">y1</string>
+    <string name="x2_hint">x2</string>
+    <string name="y2_hint">y2</string>
+    <string name="height_hint">height</string>
+    <string name="width_hint">width</string>
 
     <string-array name="figures">
         <item>Circle</item>

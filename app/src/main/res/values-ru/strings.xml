@@ -14,4 +14,12 @@
     <string name="radius_header">"Радиус: "</string>
     <string name="perimeter_header">"Периметр: "</string>
     <string name="square_header">"Площадь: "</string>
+    <string name="coordinatesHeader">Координаты</string>
+    <string name="measurementsHeader">Измерения</string>
+    <string name="x1_hint">x1</string>
+    <string name="y1_hint">y1</string>
+    <string name="x2_hint">x2</string>
+    <string name="y2_hint">y2</string>
+    <string name="height_hint">высота</string>
+    <string name="width_hint">ширина</string>
 </resources>
