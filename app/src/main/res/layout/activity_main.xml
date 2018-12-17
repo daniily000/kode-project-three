@@ -29,6 +29,7 @@
             tools:text="Choose the figure" />
 
         <Spinner
+            style="@style/Widget.AppCompat.Spinner.Underlined"
             android:id="@+id/figureSpinner"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
@@ -47,15 +48,16 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
+        android:id="@+id/createButton"
         style="?android:attr/buttonBarButtonStyle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="4dp"
+        android:text="@string/buttonCreate"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/supportView2"
-        android:text="@string/buttonCreate"
-        tools:text="Create"/>
+        tools:text="Create" />
 
 
 </android.support.constraint.ConstraintLayout>
