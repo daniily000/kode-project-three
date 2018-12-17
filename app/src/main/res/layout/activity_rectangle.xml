@@ -171,7 +171,7 @@
         app:layout_constraintRight_toLeftOf="@id/verticalDivider" />
 
     <Button
-        android:id="@+id/calculateHeightWidthButton"
+        android:id="@+id/calculateMeasurementsButton"
         style="?android:attr/buttonBarButtonStyle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

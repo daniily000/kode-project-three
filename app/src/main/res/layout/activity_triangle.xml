@@ -69,7 +69,7 @@
 
 
     <Button
-        android:id="@+id/calculateCoordinatesButton"
+        android:id="@+id/calculateButton"
         style="?android:attr/buttonBarButtonStyle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -84,7 +84,7 @@
         android:layout_height="0dp"
         android:layout_margin="36dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/calculateCoordinatesButton">
+        app:layout_constraintTop_toBottomOf="@+id/calculateButton">
 
         <TextView
             android:id="@+id/perimeterHeader"
