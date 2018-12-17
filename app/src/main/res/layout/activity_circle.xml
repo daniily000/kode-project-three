@@ -25,9 +25,9 @@
         android:layout_marginRight="36dp"
         android:layout_marginBottom="4dp"
         android:gravity="center"
+        android:hint="@string/radius_hint"
         android:inputType="numberDecimal"
         android:textColor="@color/colorPrimaryDark"
-        android:hint="@string/radius_hint"
 
         app:layout_constraintBottom_toTopOf="@+id/horizontalMiddleLine" />
 
@@ -57,7 +57,7 @@
         android:layout_height="0dp"
         android:layout_margin="36dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/calculateCoordinatesButton">
+        app:layout_constraintTop_toBottomOf="@+id/calculateButton">
 
         <TextView
             android:id="@+id/perimeterHeader"
@@ -70,6 +70,7 @@
             android:id="@+id/perimeterText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:scrollHorizontally="true"
             android:textAppearance="@style/TextAppearance.AppCompat.Large"
             android:textColor="@color/colorPrimaryDark"
             app:layout_constraintLeft_toRightOf="@id/perimeterHeader"
@@ -87,6 +88,7 @@
             android:id="@+id/squareText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:scrollHorizontally="true"
             android:textAppearance="@style/TextAppearance.AppCompat.Large"
             android:textColor="@color/colorPrimaryDark"
             app:layout_constraintLeft_toRightOf="@id/squareHeader"
